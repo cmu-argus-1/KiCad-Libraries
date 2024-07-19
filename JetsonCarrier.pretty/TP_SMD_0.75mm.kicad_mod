@@ -1,0 +1,164 @@
+(footprint "TP_SMD_0.75mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.6 360)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d23fc3f3-a909-4c35-bdb4-0ff1e7cd6892")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(property "Value" "TP_0.75mm_SMD"
+		(at 0 1.2 360)
+		(layer "F.Fab")
+		(uuid "ac8f0b50-5c60-48e4-8229-f6784042ba77")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "a34f45f0-1970-4287-9a25-506acdd62f9e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "92485535-bc1d-4634-8742-6ea02b0b4f5e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "3bdbfbc4-b21b-45b4-bfb3-fdf85aa3d654")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Author" "Antmicro"
+		(at 202.29998 -207.1016 360)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6198e547-f140-4b9a-8cd0-5b67bd612008")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "License" "Apache-2.0"
+		(at 202.29998 -207.1016 360)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85805390-c427-44f9-af5b-c745dee4fb18")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" ""
+		(at 202.29998 -207.1016 360)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e656914d-437b-4f99-8ff6-df32a154a0f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" ""
+		(at 202.29998 -207.1016 360)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "129f8a70-7e08-49e2-9b3d-8c3c5fb2ba3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at -0.4 2.7 360)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bab43d65-75c6-4ee0-911a-ec6baef8cdcd")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(fp_text user "Author: Antmicro"
+		(at -0.4 3.901 360)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ebc7266b-1fb7-42f1-b322-3d87ff70b3b9")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(fp_text user "License: Apache-2.0"
+		(at -0.4 5.101 360)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f739308a-d2a2-426c-86f7-248f0a2973d0")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0 180)
+		(size 0.75 0.75)
+		(layers "F.Cu" "F.Mask")
+		(uuid "30e9869f-bc13-4b5c-b4bc-0d6503dde6ae")
+	)
+)
