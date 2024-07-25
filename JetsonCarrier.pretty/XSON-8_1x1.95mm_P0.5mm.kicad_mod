@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0.8625 -2.2 360)
+		(at 0.8625 -2.2 0)
 		(layer "F.SilkS")
 		(uuid "3c0fcfff-1d99-41f0-a77c-c2587e510e87")
 		(effects
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "NTS0102_XSON"
-		(at 0 2.2 360)
+		(at 3.937 3.175 0)
 		(layer "F.Fab")
 		(uuid "266b655a-587a-434b-80fe-32944fc44ea8")
 		(effects
@@ -27,7 +27,7 @@
 			(justify right top)
 		)
 	)
-	(property "Footprint" "antmicro-footprints:XSON-8_1x1.95mm_P0.5mm"
+	(property "Footprint" ""
 		(at 0 0 0)
 		(layer "B.Fab")
 		(hide yes)
@@ -41,7 +41,7 @@
 		)
 	)
 	(property "Datasheet" "http://www.farnell.com/datasheets/1760723.pdf"
-		(at 0 0 0)
+		(at -0.0254 5.8166 0)
 		(layer "B.Fab")
 		(hide yes)
 		(uuid "dbd54ccd-511d-4fce-ac8b-ec5840377013")
@@ -66,65 +66,7 @@
 			(justify mirror)
 		)
 	)
-	(property "Author" "Antmicro"
-		(at 237.8025 40.1975 90)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8cdbd30f-091b-4522-b7d8-9dc15e83324e")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "License" "Apache-2.0"
-		(at 237.8025 40.1975 90)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0bbd2f8c-261c-4a05-8c01-2065425cd525")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "MPN" "NTS0102GT"
-		(at 237.8025 40.1975 90)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3ccbdae1-3ca9-4560-9848-2a28c2af6762")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Manufacturer" "NXP"
-		(at 237.8025 40.1975 90)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "025b7f0b-a5ff-441e-9cd5-36dab0cd037b")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(attr smd)
-	(fp_line
-		(start 0.5 -1.1)
-		(end -0.5 -1.1)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "4660ab99-8986-4169-b6ed-87152dd7aaf4")
-	)
 	(fp_line
 		(start -0.5 1.1)
 		(end 0.5 1.1)
@@ -134,6 +76,16 @@
 		)
 		(layer "F.SilkS")
 		(uuid "2028b196-c8bd-4de9-b05a-c48b9ca70b29")
+	)
+	(fp_line
+		(start 0.5 -1.1)
+		(end -0.5 -1.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4660ab99-8986-4169-b6ed-87152dd7aaf4")
 	)
 	(fp_circle
 		(center -0.7 -0.95)
@@ -158,24 +110,14 @@
 		(uuid "84dce308-bbf1-4f4f-aaea-11e69eb01a3d")
 	)
 	(fp_line
-		(start 0.5305 1)
-		(end 0.5305 -1.001)
+		(start -0.5305 -1.001)
+		(end -0.5305 1)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "3c12a7bb-bd08-4ede-99d1-e5323f9f0eb3")
-	)
-	(fp_line
-		(start 0.5305 -1.001)
-		(end -0.5305 -1.001)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "d5bae8f0-05bf-4df6-bc09-abc107ce9b66")
+		(uuid "ff986b1e-14f4-4bce-b54d-91a2cb9dbd64")
 	)
 	(fp_line
 		(start -0.5305 1)
@@ -188,14 +130,24 @@
 		(uuid "03d92729-7bb7-4ca8-b8f7-dc30cd55915f")
 	)
 	(fp_line
-		(start -0.5305 -1.001)
-		(end -0.5305 1)
+		(start 0.5305 -1.001)
+		(end -0.5305 -1.001)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "ff986b1e-14f4-4bce-b54d-91a2cb9dbd64")
+		(uuid "d5bae8f0-05bf-4df6-bc09-abc107ce9b66")
+	)
+	(fp_line
+		(start 0.5305 1)
+		(end 0.5305 -1.001)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3c12a7bb-bd08-4ede-99d1-e5323f9f0eb3")
 	)
 	(fp_rect
 		(start 0.524 0.998)
@@ -209,24 +161,14 @@
 		(uuid "f6eba049-83b8-4dee-b45b-0b403c4ee992")
 	)
 	(fp_line
-		(start 0.524 0.998)
-		(end -0.527 0.998)
+		(start -0.527 -1)
+		(end 0.524 -1)
 		(stroke
 			(width 0.02)
 			(type solid)
 		)
 		(layer "User.9")
-		(uuid "a7240dfc-3c23-4a4b-84e2-11d9b6d35fd4")
-	)
-	(fp_line
-		(start 0.524 -1)
-		(end 0.524 0.998)
-		(stroke
-			(width 0.02)
-			(type solid)
-		)
-		(layer "User.9")
-		(uuid "2cb99100-0376-4041-b425-c212bc66ad14")
+		(uuid "05451b25-ffe1-4b48-8e71-fdd819211c7d")
 	)
 	(fp_line
 		(start -0.527 0.998)
@@ -239,43 +181,27 @@
 		(uuid "214db410-07f6-4459-8079-9315bfeb6a1b")
 	)
 	(fp_line
-		(start -0.527 -1)
-		(end 0.524 -1)
+		(start 0.524 -1)
+		(end 0.524 0.998)
 		(stroke
 			(width 0.02)
 			(type solid)
 		)
 		(layer "User.9")
-		(uuid "05451b25-ffe1-4b48-8e71-fdd819211c7d")
+		(uuid "2cb99100-0376-4041-b425-c212bc66ad14")
 	)
-	(fp_text user "License: Apache-2.0"
-		(at -0.527 8.306 360)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4c6ff3c5-eeaa-48c6-8639-d2da375e550f")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify right top)
+	(fp_line
+		(start 0.524 0.998)
+		(end -0.527 0.998)
+		(stroke
+			(width 0.02)
+			(type solid)
 		)
-	)
-	(fp_text user "Author: Antmicro"
-		(at -0.527 7.105 360)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9838107b-5291-4646-a79e-ee72a9a9cc09")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify right top)
-		)
+		(layer "User.9")
+		(uuid "a7240dfc-3c23-4a4b-84e2-11d9b6d35fd4")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -0.527 5.905 360)
+		(at 3.7338 1.9304 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "b6444cad-d613-4a35-b872-afbc15a992a7")
@@ -335,15 +261,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "71f08491-4001-421b-bd35-67a35d61056c")
 	)
-	(model "${ANT3DMDL}/SOT833-1.step"
+	(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/NTS0102GT_115.step"
 		(offset
-			(xyz -0.5 1 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 90)
+			(xyz -90 0 0)
 		)
 	)
 )

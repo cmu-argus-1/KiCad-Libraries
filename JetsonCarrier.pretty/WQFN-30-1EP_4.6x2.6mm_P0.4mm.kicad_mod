@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "HD3SS3220RNH"
-		(at 0 3.5 180)
+		(at -3.6576 3.7846 180)
 		(layer "F.Fab")
 		(uuid "ba4bf420-f98b-4c10-a1d4-fdd2ed5268d6")
 		(effects
@@ -27,8 +27,8 @@
 			(justify left bottom)
 		)
 	)
-	(property "Footprint" "antmicro-footprints:WQFN-30-1EP_4.6x2.6mm_P0.4mm"
-		(at 0 0 0)
+	(property "Footprint" ""
+		(at 0.0508 10.3632 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "61f68b57-cbbb-4787-afcb-5e0d071f5396")
@@ -40,7 +40,7 @@
 		)
 	)
 	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/hd3ss3220.pdf?ts=1663000043694&ref_url=https%253A%252F%252Fwww.google.com%252F"
-		(at 0 0 0)
+		(at 0 12.954 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "fac53a11-93d8-44a9-9083-682bc88bbb19")
@@ -63,58 +63,10 @@
 			)
 		)
 	)
-	(property "Author" "Antmicro"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "37647b4c-fd8f-42e4-938a-c774a7dd50f9")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "License" "Apache-2.0"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a104e3f3-4d19-4e7e-b6d8-196f2e8b6f21")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "MPN" "HD3SS3220RNHT"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b17f5f18-1515-4d7e-8746-ba0451da3da8")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Manufacturer" "Texas Instruments"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9ecc2f7d-7125-46e4-8671-a9c5c0a091c9")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(attr smd)
 	(fp_line
 		(start -1.253 -2.26)
-		(end -1.253 -2.01)
+		(end -1.253 -2.0828)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -124,7 +76,7 @@
 	)
 	(fp_line
 		(start -1.253 -2.26)
-		(end -1.003 -2.26)
+		(end -1.075708 -2.26)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -134,63 +86,63 @@
 	)
 	(fp_line
 		(start -1.253 2.24)
-		(end -1.253 1.99)
+		(end -1.253 2.062709)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "cfc17404-ffe4-4077-a36e-f4dfeac5c418")
+		(uuid "77febd42-0931-4171-aebd-e89bd57ac5dc")
 	)
 	(fp_line
 		(start -1.253 2.24)
-		(end -1.003 2.24)
+		(end -1.0758 2.240001)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f4505468-d5db-4ca7-88f0-5e827e57e1f5")
+		(uuid "e4e68e3a-77e6-4d73-aee2-8cdcd3ec1c1b")
 	)
 	(fp_line
-		(start 1.247 -2.26)
-		(end 0.997 -2.26)
+		(start 1.2446 -2.260091)
+		(end 1.0674 -2.260092)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ced394fb-cc8e-4edf-b4aa-d18021caecaf")
+		(uuid "ce336141-2830-407e-97a2-f4eb101a550f")
 	)
 	(fp_line
-		(start 1.247 -2.26)
-		(end 1.247 -2.01)
+		(start 1.2446 -2.260091)
+		(end 1.2446 -2.0828)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9d8715c2-73bf-4941-828f-a2fa7a2b62fd")
-	)
-	(fp_line
-		(start 1.247 2.24)
-		(end 0.997 2.24)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "f191a961-945a-4edf-9cb7-3eed5e97bef8")
+		(uuid "69ac5f1f-2c82-4ad3-aa4f-19e17a6905c7")
 	)
 	(fp_line
 		(start 1.247 2.24)
-		(end 1.247 1.99)
+		(end 1.069709 2.24)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "52b20217-36fa-47e5-9c15-217a00c4d864")
+		(uuid "b2a940b9-4342-4523-ae93-a7f6fc08a01e")
+	)
+	(fp_line
+		(start 1.247 2.24)
+		(end 1.247001 2.0628)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2b857bb1-c85f-4420-aacc-314c48e29ba8")
 	)
 	(fp_circle
 		(center -1.5 -2.5)
@@ -277,36 +229,10 @@
 		(uuid "e37507ca-778e-49dd-891f-4024476e7b3f")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -1.6 4.8 0)
+		(at -3.7084 5.0292 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "2ccab653-4500-4109-9668-400baafe94db")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "License: Apache-2.0"
-		(at -1.6 7.199 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6e53257d-c1b8-4b55-a0bc-0f7c3c8456b1")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "Author: Antmicro"
-		(at -1.6 6 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a446ebca-be7d-4148-a6a2-ed1cdc77dea2")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -501,7 +427,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "3653b0af-b545-4058-a79e-bf5df37dc97c")
 	)
-	(model "${ANT3DMDL}/WQFN-30-1EP_4.6x2.6mm_P0.4mm.step"
+	(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/HD3SS3220.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -509,7 +435,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 -90)
+			(xyz -90 0 0)
 		)
 	)
 )

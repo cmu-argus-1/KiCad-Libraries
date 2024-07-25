@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "Conn_USB-C_WE_632723300011"
-		(at 6.03 6.14 90)
+		(at -7.9248 8.001 180)
 		(layer "F.Fab")
 		(uuid "c8dcc932-d629-477c-aab5-893d50d944c2")
 		(effects
@@ -59,54 +59,6 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Author" "Antmicro"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8dd5c47e-14b3-414f-b851-5e7c8a2e2c10")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "License" "Apache-2.0"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0cd79165-e56f-46fb-9abc-0e24dbf67bc6")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "MPN" "632723300011"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "fbbe0d2b-d11f-4ad3-8eea-eb962408d7f2")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Manufacturer" "Würth Elektronik"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "52c1d1e4-22f4-498c-84db-41b5d7ee89d4")
-		(effects
-			(font
-				(size 1 1)
 				(thickness 0.15)
 			)
 		)
@@ -8667,32 +8619,6 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "License: Apache-2.0"
-		(at -5.272 8.495 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1f36ef68-ad17-44c2-8649-807ebbbb21f0")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "Author: Antmicro"
-		(at -5.272 10.895 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2ea9c8ca-302e-4542-b1b4-f8ba7875855b")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
 	(fp_text user "${REFERENCE}"
 		(at -5.272 9.695 0)
 		(layer "F.Fab")
@@ -8948,15 +8874,15 @@
 		(remove_unused_layers no)
 		(uuid "c24c7210-eca5-4d4b-bcb1-3a829ee0f38c")
 	)
-	(model "${ANT3DMDL}/USB-C_Receptacle_WE_632723300011.step"
+	(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/632723300011.stp"
 		(offset
-			(xyz 0 0.0000200000000001 0)
+			(xyz 0 -1.0668 1.5748)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 90 0 180)
 		)
 	)
 )
