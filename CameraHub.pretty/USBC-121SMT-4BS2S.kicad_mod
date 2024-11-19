@@ -1134,8 +1134,8 @@
 	)
 	(pad "S1" thru_hole oval
 		(at -4.275 0.15 90)
-		(size 2.1778 0.9)
-		(drill oval 1.5778 0.3)
+		(size 2.1778 1)
+		(drill oval 1.5778 0.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "32131cf7-f63a-4837-8c7c-c1f629509b25")
@@ -1156,8 +1156,8 @@
 	)
 	(pad "S1" thru_hole oval
 		(at 4.275 0.15 90)
-		(size 2.1778 0.9)
-		(drill oval 1.5778 0.3)
+		(size 2.1778 1)
+		(drill oval 1.5778 0.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "d1715bde-574e-4817-bc9f-679563a46a7e")
